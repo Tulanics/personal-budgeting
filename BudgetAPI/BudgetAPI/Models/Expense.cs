@@ -2,18 +2,18 @@
 
 namespace BudgetAPI.Models
 {
-    public class Income
+    public class Expense
     {
         [Required]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "A Descrição da receita é obrigatória")]
+        [Required(ErrorMessage = "A Descrição da despesa é obrigatória")]
         public string Description { get; set; }
 
-        [Required(ErrorMessage = "O valor da receita é obrigatório")]
-        [Range(0, double.MaxValue, ErrorMessage = "o valor da receita não pode ser negativo")]
+        [Required(ErrorMessage = "O valor da despesa é obrigatório")]
+        [Range(0, double.MaxValue, ErrorMessage = "o valor da despesa não pode ser negativo")]
         public double Amount { get; set; }
-        
+
         [Required]
         public DateTime Date { get; set; }
     }

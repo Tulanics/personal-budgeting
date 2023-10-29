@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tuli_\\source\\repos\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj": {}
+    "C:\\Users\\tuli_\\source\\repos\\personal-budgeting\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tuli_\\source\\repos\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj": {
+    "C:\\Users\\tuli_\\source\\repos\\personal-budgeting\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuli_\\source\\repos\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\tuli_\\source\\repos\\personal-budgeting\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
         "projectName": "BudgetAPI",
-        "projectPath": "C:\\Users\\tuli_\\source\\repos\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
+        "projectPath": "C:\\Users\\tuli_\\source\\repos\\personal-budgeting\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
         "packagesPath": "C:\\Users\\tuli_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuli_\\source\\repos\\BudgetAPI\\BudgetAPI\\obj\\",
+        "outputPath": "C:\\Users\\tuli_\\source\\repos\\personal-budgeting\\BudgetAPI\\BudgetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tuli_\\AppData\\Roaming\\NuGet\\NuGet.Config",

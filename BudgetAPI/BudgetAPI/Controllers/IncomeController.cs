@@ -6,7 +6,7 @@ namespace BudgetAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class BudgetIncomeController : ControllerBase
+public class IncomeController : ControllerBase
 {
     private static List<Income> incomes = new List<Income>();
 
