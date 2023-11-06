@@ -18,5 +18,18 @@ public class IncomeController : ControllerBase
         Console.WriteLine(income.Description);
         Console.WriteLine(income.Amount);
         Console.WriteLine(income.Date);
+
+    }
+
+    [HttpGet]
+    public IEnumerable<Income> GetBudgetIncomes()
+    {
+        return incomes;
+    }
+
+    [HttpGet("{id}")]
+    public Income? GetIncomeById(int id)
+    {
+        return incomes.FirstOrDefault(income => income.Id == id);
     }
 }
